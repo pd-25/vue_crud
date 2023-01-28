@@ -1,14 +1,22 @@
 <template>
- <h2>App component here</h2>
- <button class="btn btn-success">Submit</button>
-
+ <MyNavBar/>
+ <router-view/>
+ 
 </template>
 
 
 <script>
+import MyNavBar from "./components/MyNavBar.vue";
+
 export default {
-    name: 'App'
-}
+  name: "app",
+  components: {
+    MyNavBar,
+  },
+};
+
+
+
 </script>
 
 <style>
