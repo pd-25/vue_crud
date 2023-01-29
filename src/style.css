@@ -1,4 +1,9 @@
 body{
-    background-color: rgb(198, 241, 198);
+    background-color: rgb(169, 210, 238);
     font-family: 'Rubik', sans-serif !important;
+}
+
+.contact-img {
+ width: 150px;
+ border-radius: 50%;
 }
