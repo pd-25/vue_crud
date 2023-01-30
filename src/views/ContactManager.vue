@@ -28,7 +28,7 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-6">
-                <div class="card my-2 list-group-item-success">
+                <div class="card my-2 list-group-item-success shadow-lg">
                     <div class="card-body">
                         <div class="row align-items-center">
                             <div class="col-md-4">
@@ -60,7 +60,7 @@
 
             <!-- 2nd -->
             <div class="col-md-6">
-                <div class="card my-2 list-group-item-success">
+                <div class="card my-2 list-group-item-success shadow-lg">
                     <div class="card-body">
                         <div class="row align-items-center">
                             <div class="col-md-4">
@@ -91,7 +91,7 @@
             </div>
             <!-- 3rd -->
             <div class="col-md-6">
-                <div class="card my-2 list-group-item-success">
+                <div class="card my-2 list-group-item-success shadow-lg">
                     <div class="card-body">
                         <div class="row align-items-center">
                             <div class="col-md-4">
@@ -122,7 +122,7 @@
             </div>
             <!-- 4th -->
             <div class="col-md-6">
-                <div class="card my-2 list-group-item-success">
+                <div class="card my-2 list-group-item-success shadow-lg shadow-md">
                     <div class="card-body">
                         <div class="row align-items-center">
                             <div class="col-md-4">
@@ -143,9 +143,9 @@
                                 <router-link to="/contacts/edit/:id" class="btn btn-success btn-sm m-1">
                                     <i class="fa fa-edit"></i>
                                 </router-link>
-                                <router-link to="/contacts/view/:id" class="btn btn-danger btn-sm m-1">
+                                <button class="btn btn-danger btn-sm m-1">
                                     <i class="fa fa-trash"></i>
-                                </router-link>
+                                </button>
                             </div>
                         </div>
                     </div>
