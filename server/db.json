@@ -1,0 +1,62 @@
+{
+    "contacts": [
+      {
+       
+        "id": 1,
+        "name": "John cena",
+        "company": "Fitbouncer",
+        "email": "gm@mail.com",
+        "title": "Fit-freat",
+        "mobile": "9382950050",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSJJSFcWEKr6nqzqWPn1KNSIqWTWJsiICKQLJFYQXIOjunf-nDlblfXPC3NNWGAz8HpsA&usqp=CAU",
+        "groupId": "3"
+      },
+      {
+       
+        "id": 2,
+        "name": "John cena",
+        "company": "Fitbouncer",
+        "email": "gm@mail.com",
+        "title": "Fit-freat",
+        "mobile": "9382950050",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSJJSFcWEKr6nqzqWPn1KNSIqWTWJsiICKQLJFYQXIOjunf-nDlblfXPC3NNWGAz8HpsA&usqp=CAU",
+        "groupId": "2"
+      },
+      {
+       
+        "id": 3,
+        "name": "John cena",
+        "company": "Fitbouncer",
+        "email": "gm@mail.com",
+        "title": "Fit-freat",
+        "mobile": "9382950050",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSJJSFcWEKr6nqzqWPn1KNSIqWTWJsiICKQLJFYQXIOjunf-nDlblfXPC3NNWGAz8HpsA&usqp=CAU",
+        "groupId": "2"
+      },
+      {
+       
+        "id": 4,
+        "name": "John cena",
+        "company": "Fitbouncer",
+        "email": "gm@mail.com",
+        "title": "Fit-freat",
+        "mobile": "9382950050",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSJJSFcWEKr6nqzqWPn1KNSIqWTWJsiICKQLJFYQXIOjunf-nDlblfXPC3NNWGAz8HpsA&usqp=CAU",
+        "groupId": "2"
+      }
+  
+    ],
+  
+    "groups": [
+      {
+        "id": 2,
+        "name": "friend"
+      },
+      {
+        "id": 3,
+        "name": "office"
+      }
+    ]
+   
+  }
+  
