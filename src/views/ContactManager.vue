@@ -157,7 +157,14 @@
 
 <script>
 export default {
-    name: "ContactManager"
+    name: "ContactManager",
+    data: function () {
+        return {
+            loading: false,
+            contacts: [],
+            errorMessage: null,
+        }
+    }
 }
 </script>
 
