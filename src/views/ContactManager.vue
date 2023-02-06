@@ -63,13 +63,13 @@
                                 </ul>
                             </div>
                             <div class="col-md-1 p-1">
-                                <router-link to="/contacts/view/:id" class="btn btn-warning btn-sm m-1">
+                                <router-link :to="`/contacts/view/${contact.id}`" class="btn btn-warning btn-sm m-1">
                                     <i class="fa fa-eye"></i>
                                 </router-link>
-                                <router-link to="/contacts/edit/:id" class="btn btn-success btn-sm m-1">
+                                <router-link :to="`/contacts/edit/${contact.id}`" class="btn btn-success btn-sm m-1">
                                     <i class="fa fa-edit"></i>
                                 </router-link>
-                                <router-link to="/contacts/view/:id" class="btn btn-danger btn-sm m-1">
+                                <router-link :to="`/contacts/view/${contact.id}`" class="btn btn-danger btn-sm m-1">
                                     <i class="fa fa-trash"></i>
                                 </router-link>
                             </div>
@@ -77,100 +77,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- 2nd -->
-            <!-- <div class="col-md-6">
-                <div class="card my-2 list-group-item-success shadow-lg">
-                    <div class="card-body">
-                        <div class="row align-items-center">
-                            <div class="col-md-4">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSJJSFcWEKr6nqzqWPn1KNSIqWTWJsiICKQLJFYQXIOjunf-nDlblfXPC3NNWGAz8HpsA&usqp=CAU" alt="image not found" class="contact-img">
-                            </div>
-                            <div class="col-md-7">
-                                <ul class="list-group">
-                                    <li class="list-group-item">Name : <span class="fw-bold">Pradipta Bhuin</span></li>
-                                    <li class="list-group-item">Email : <span class="fw-bold">pradipta@gmail.com</span></li>
-                                    <li class="list-group-item">Mobile : <span class="fw-bold">+91 9382950050</span></li>
-
-                                </ul>
-                            </div>
-                            <div class="col-md-1 p-1">
-                                <router-link to="/contacts/view/:id" class="btn btn-warning btn-sm m-1">
-                                    <i class="fa fa-eye"></i>
-                                </router-link>
-                                <router-link to="/contacts/edit/:id" class="btn btn-success btn-sm m-1">
-                                    <i class="fa fa-edit"></i>
-                                </router-link>
-                                <router-link to="/contacts/view/:id" class="btn btn-danger btn-sm m-1">
-                                    <i class="fa fa-trash"></i>
-                                </router-link>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            <!-- 3rd -->
-            <!-- <div class="col-md-6">
-                <div class="card my-2 list-group-item-success shadow-lg">
-                    <div class="card-body">
-                        <div class="row align-items-center">
-                            <div class="col-md-4">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSJJSFcWEKr6nqzqWPn1KNSIqWTWJsiICKQLJFYQXIOjunf-nDlblfXPC3NNWGAz8HpsA&usqp=CAU" alt="image not found" class="contact-img">
-                            </div>
-                            <div class="col-md-7">
-                                <ul class="list-group">
-                                    <li class="list-group-item">Name : <span class="fw-bold">Pradipta Bhuin</span></li>
-                                    <li class="list-group-item">Email : <span class="fw-bold">pradipta@gmail.com</span></li>
-                                    <li class="list-group-item">Mobile : <span class="fw-bold">+91 9382950050</span></li>
-
-                                </ul>
-                            </div>
-                            <div class="col-md-1 p-1">
-                                <router-link to="/contacts/view/:id" class="btn btn-warning btn-sm m-1">
-                                    <i class="fa fa-eye"></i>
-                                </router-link>
-                                <router-link to="/contacts/edit/:id" class="btn btn-success btn-sm m-1">
-                                    <i class="fa fa-edit"></i>
-                                </router-link>
-                                <router-link to="/contacts/view/:id" class="btn btn-danger btn-sm m-1">
-                                    <i class="fa fa-trash"></i>
-                                </router-link>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            <!-- 4th -->
-            <!-- <div class="col-md-6">
-                <div class="card my-2 list-group-item-success shadow-lg shadow-md">
-                    <div class="card-body">
-                        <div class="row align-items-center">
-                            <div class="col-md-4">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSJJSFcWEKr6nqzqWPn1KNSIqWTWJsiICKQLJFYQXIOjunf-nDlblfXPC3NNWGAz8HpsA&usqp=CAU" alt="image not found" class="contact-img">
-                            </div>
-                            <div class="col-md-7">
-                                <ul class="list-group">
-                                    <li class="list-group-item">Name : <span class="fw-bold">Pradipta Bhuin</span></li>
-                                    <li class="list-group-item">Email : <span class="fw-bold">pradipta@gmail.com</span></li>
-                                    <li class="list-group-item">Mobile : <span class="fw-bold">+91 9382950050</span></li>
-
-                                </ul>
-                            </div>
-                            <div class="col-md-1 p-1">
-                                <router-link to="/contacts/view/:id" class="btn btn-warning btn-sm m-1">
-                                    <i class="fa fa-eye"></i>
-                                </router-link>
-                                <router-link to="/contacts/edit/:id" class="btn btn-success btn-sm m-1">
-                                    <i class="fa fa-edit"></i>
-                                </router-link>
-                                <button class="btn btn-danger btn-sm m-1">
-                                    <i class="fa fa-trash"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
         </div>
     </div>
 </template>

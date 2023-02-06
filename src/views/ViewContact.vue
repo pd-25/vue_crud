@@ -40,7 +40,12 @@
 
 <script>
 export default {
-    name: "ViewContact"
+    name: "ViewContact",
+    data: function () {
+        return {
+            // contactID = this.$router.params.contactID;
+        }
+    }
 }
 </script>
 

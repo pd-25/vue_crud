@@ -31,13 +31,13 @@ export class ContactService{
 
     static getAllGroups(){
         let dataURL = `${this.serverURL}/groups`;
-        return axios.delete(dataURL);
+        return axios.get(dataURL);
     }
 
     static getGroup(contact){
         let groupId = contact.groupId;
         let dataURL = `${this.serverURL}/groups/`+groupId;
-        return axios.delete(dataURL);
+        return axios.get(dataURL);
     }
 
 
