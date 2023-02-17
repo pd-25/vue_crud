@@ -69,9 +69,9 @@
                                 <router-link :to="`/contacts/edit/${contact.id}`" class="btn btn-success btn-sm m-1">
                                     <i class="fa fa-edit"></i>
                                 </router-link>
-                                <router-link :to="`/contacts/view/${contact.id}`" class="btn btn-danger btn-sm m-1">
+                                <button class="btn btn-danger btn-sm m-1" @click ="deleteContact(contact.id)">
                                     <i class="fa fa-trash"></i>
-                                </router-link>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -103,6 +103,24 @@ export default {
         catch (error) {
             this.errorMessage = error;
             this.loading = false;
+        }
+    },
+
+    methods: {
+        deleteContact : async function (contactId) {
+            try {
+                this.loading = true;
+                let responce = await ContactService.deleteContact(contactId);
+                if(responce){
+                    let response = await ContactService.getAllContacts();
+                    this.contacts = response.data;
+                    this.loading = false;
+                }
+                
+            } catch (error) {
+                this.errorMessage = error;
+                this.loading = false; 
+            }
         }
     },
     components: { LodingSpinner }
